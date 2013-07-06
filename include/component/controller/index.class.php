@@ -30,7 +30,7 @@ class TestModule_Component_Controller_Index extends Phpfox_Component {
     $aVals['privacy']         = $this->request()->get('privacy',0);
     $aVals['privacy_comment'] = $this->request()->get('privacyComment',0);
      
-     if($this->request()->get('embedCode','') != '')
+      if($this->request()->get('embedCode','') != '')
     {
             $aVals['link']['embed_code']  = str_replace("+","/",$this->request()->get('embedCode',''));
 			$aVals['link']['image_hide']  = 0;
