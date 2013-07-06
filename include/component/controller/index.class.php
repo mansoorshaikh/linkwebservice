@@ -13,7 +13,7 @@ defined('PHPFOX') or exit('NO DICE!');
  * @package 		Phpfox_Component
  * @version 		$Id: controller.class.php 103 2009-01-27 11:32:36Z Raymond_Benc $
  */
-class Webservice_Component_Controller_Index extends Phpfox_Component {
+class TestModule_Component_Controller_Index extends Phpfox_Component {
 	/**
 	 * Class process method wnich is used to execute this component.
 	 */
@@ -53,7 +53,7 @@ class Webservice_Component_Controller_Index extends Phpfox_Component {
                 }
 			}
 		}
-        Phpfox::getLib('template')->setTemplate('blank');
+   //     Phpfox::getLib('template')->setTemplate('blank');
 	}
     /**
 	 * Garbage collector. Is executed after this class has completed
